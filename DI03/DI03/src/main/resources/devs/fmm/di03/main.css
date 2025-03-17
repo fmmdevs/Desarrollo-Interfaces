@@ -1,0 +1,51 @@
+.cuadro-rojo {
+    -fx-border-width: 2;
+    -fx-border-color: red;
+}
+
+.rectangulos {
+    /*color de fondo*/
+    -fx-background-color: lightgreen;
+
+    /*Forma cuadrada*/
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+
+    /* Texto */
+    -fx-font-weight: bold; /*negrita*/
+    -fx-alignment: center; /*alineado al centro*/
+
+    /*borde*/
+    -fx-border-width: 2px;
+    -fx-border-color: green;
+
+    /*
+      no existe -fx-margin: 5;
+      en su lugar:
+    */
+    -fx-padding: 5px; /*espacio interno de 5px, entre el borde y el texto*/
+    -fx-border-insets: 5px; /*espacio externo desde los bordes*/
+    -fx-background-insets: 5px; /*espacio entre el fondo (background-color) y los bordes*/
+}
+
+#btnSalir {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#btnSalir:hover {
+    -fx-background-color: #fd5a5a;
+    /*-fx-text-fill: #170d0d;*/
+}
+
+#btnGenerar{
+    -fx-background-color: green;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#btnGenerar:hover{
+    -fx-background-color: #4e914e;
+
+}

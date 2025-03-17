@@ -1,0 +1,50 @@
+/* Display */
+Label {
+    -fx-padding: 20px;
+    -fx-font-size: 26px;
+    -fx-alignment: center-right;
+}
+
+/* Historial de operaciones*/
+TextArea{
+    -fx-pref-width: 205px;
+    -fx-pref-height: 233px;
+}
+
+/* Botones */
+Button{
+    /*-fx-padding: 20px 30px;*/
+    -fx-pref-width: 70px;
+    -fx-pref-height: 50px;
+}
+
+/* Botones numéricos*/
+.botonNumerico{
+    -fx-font-weight: bold;
+}
+
+/* Botón "DEL"*/
+#btnDel{
+    -fx-background-color: #bd1e00;
+    -fx-text-fill: white;
+}
+
+#btnDel:hover{
+    -fx-background-color: #ea6044;
+}
+
+/* Botón "="*/
+#btnIgual{
+    -fx-background-color: #35a423;
+    -fx-text-fill: white;
+}
+
+#btnIgual:hover{
+    -fx-background-color: #7dd774;
+}
+
+/* Botón "Limpiar historial"*/
+#btnReset{
+    -fx-pref-width: 140px;
+    -fx-pref-height: 25px;
+}

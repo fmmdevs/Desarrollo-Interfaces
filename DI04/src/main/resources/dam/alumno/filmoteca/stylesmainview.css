@@ -1,0 +1,95 @@
+/* Botón Añadir */
+.boton-anadir {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 10px;
+    -fx-background-radius: 5px;
+}
+.boton-anadir:hover {
+    -fx-background-color: #218838;
+}
+
+/* Botón Modificar */
+.boton-modificar {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 10px;
+    -fx-background-radius: 5px;
+}
+.boton-modificar:hover {
+    -fx-background-color: #0056b3;
+}
+
+/* Botón Eliminar */
+.boton-eliminar {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 10px;
+    -fx-background-radius: 5px;
+}
+.boton-eliminar:hover {
+    -fx-background-color: #c82333;
+}
+
+/* Botón Cerrar */
+.boton-cerrar {
+    -fx-background-color: #6c757d;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 5px 10px;
+    -fx-background-radius: 5px;
+}
+.boton-cerrar:hover {
+    -fx-background-color: #5a6268;
+}
+
+
+/* GridPane con la información de las películas*/
+GridPane{
+    -fx-background-color: #f8f9fa; /* Color claro tipo tarjeta */
+    -fx-border-color: #ddd; /* Borde sutil */
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
+
+/* TableView*/
+.table-view {
+    -fx-background-color: #f8f9fa; /* Fondo claro */
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+/*.table-view .column-header {
+    -fx-background-color: #343a40; !* Color oscuro *!
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}*/
+
+/* Alternar colores de filas*/
+.table-row-cell:odd {
+    -fx-background-color: #ffffff; /* Blanco */
+}
+.table-row-cell:even {
+    -fx-background-color: #f1f1f1; /* Gris claro */
+}
+.table-row-cell:selected {
+    -fx-background-color: #007bff !important; /* Azul cuando está seleccionada */
+    -fx-text-fill: white;
+}
+
+/* Texto de cada celda*/
+.table-cell {
+    -fx-padding: 8px;
+    -fx-font-size: 13px;
+    -fx-alignment: center-left;
+}
